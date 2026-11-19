@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+fieldset label {
+    font-weight: normal;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin: 0;
+}
+
+#resultado,
+#resultadoServicios,
+#resultadoTestimonios,
+#resultadoNoticias,
+#resultadoCitas,
+#resultadoNumeros,
+#resultadoPattern {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+#contador {
+    color: #555;
+}
